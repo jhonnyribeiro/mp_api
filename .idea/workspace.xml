@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b343c16-f626-488e-9f24-5ccfdb52688e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +156,7 @@
       <workItem from="1579547949242" duration="3141000" />
       <workItem from="1579556924861" duration="3883000" />
       <workItem from="1579563156261" duration="53000" />
-      <workItem from="1579596371554" duration="2673000" />
+      <workItem from="1579596371554" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="add paginator on prodcuts endpoint">
       <created>1579559933100</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579598407160</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20. Autenticação Básica&#10;Adicionado usuário fake seeder">
+      <created>1579599137890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579599137890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,13 +196,14 @@
     <MESSAGE value="add paginator on prodcuts endpoint" />
     <MESSAGE value="17. Controllers como Recurso" />
     <MESSAGE value="19. Eloquent Api Resource pt. 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Eloquent Api Resource pt. 2" />
+    <MESSAGE value="20. Autenticação Básica&#10;Adicionado usuário fake seeder" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Autenticação Básica&#10;Adicionado usuário fake seeder" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="182" y="55" key="CommitChangelistDialog2" timestamp="1579598405929">
+    <state x="182" y="55" key="CommitChangelistDialog2" timestamp="1579599136884">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="55" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579598405929" />
+    <state x="182" y="55" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579599136884" />
     <state x="439" y="424" width="431" height="201" key="Github.CreateGistDialog" timestamp="1579559342583">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -206,10 +212,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="25" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579598214026" />
-    <state x="132" y="194" key="Vcs.Push.Dialog.v2" timestamp="1579563182506">
+    <state x="132" y="194" key="Vcs.Push.Dialog.v2" timestamp="1579599145809">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="194" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579563182506" />
+    <state x="132" y="194" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579599145809" />
     <state x="911" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579596409452">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
