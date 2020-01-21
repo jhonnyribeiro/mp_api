@@ -156,7 +156,7 @@
       <workItem from="1579547949242" duration="3141000" />
       <workItem from="1579556924861" duration="3883000" />
       <workItem from="1579563156261" duration="53000" />
-      <workItem from="1579596371554" duration="3911000" />
+      <workItem from="1579596371554" duration="5900000" />
     </task>
     <task id="LOCAL-00001" summary="add paginator on prodcuts endpoint">
       <created>1579559933100</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579599683721</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="22. Iniciando Filtragem de Campos&#10;Adicionado filtros simples via url">
+      <created>1579600367626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579600367626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,17 +219,18 @@
     <MESSAGE value="19. Eloquent Api Resource pt. 2" />
     <MESSAGE value="20. Autenticação Básica&#10;Adicionado usuário fake seeder" />
     <MESSAGE value="21 Gerar produtos fake" />
-    <option name="LAST_COMMIT_MESSAGE" value="21 Gerar produtos fake" />
+    <MESSAGE value="22. Iniciando Filtragem de Campos&#10;Adicionado filtros simples via url" />
+    <option name="LAST_COMMIT_MESSAGE" value="22. Iniciando Filtragem de Campos&#10;Adicionado filtros simples via url" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Notifications" timestamp="1579599816218">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="140" y="102" key="#Notifications/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579599816218" />
-    <state x="182" y="55" key="CommitChangelistDialog2" timestamp="1579599682772">
+    <state x="182" y="55" key="CommitChangelistDialog2" timestamp="1579600366635">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="182" y="55" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579599682772" />
+    <state x="182" y="55" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579600366635" />
     <state x="439" y="424" width="431" height="201" key="Github.CreateGistDialog" timestamp="1579559342583">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -231,10 +239,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="25" y="83" key="SettingsEditor/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579598214026" />
-    <state x="132" y="194" key="Vcs.Push.Dialog.v2" timestamp="1579599684985">
+    <state x="132" y="194" key="Vcs.Push.Dialog.v2" timestamp="1579600373684">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="132" y="194" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579599684985" />
+    <state x="132" y="194" key="Vcs.Push.Dialog.v2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579600373684" />
     <state x="911" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1579596409452">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
