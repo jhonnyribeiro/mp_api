@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\ProductCollection;
 use App\Http\Resources\ProductResource;
 use App\Product;
+use App\Repository\ProductRepository;
 use http\Env\Response;
 use Illuminate\Http\Request;
 
@@ -26,28 +27,23 @@ class ProductController extends Controller
     {
         $products = $this->product;
 
+        $productRepository = new ProductRepository($products);
 
         if ($request->has('conditions')) {
-            $expressions = explode(';', $request->get('conditions'));
-
-            foreach ($expressions as $e) {
-                $exp = explode(':', $e);
-                $products = $products->where($exp[0], $exp[1], $exp[2]);
-            }
-
-
+            $productRepository
+                ->selctConditions($request->get('conditions'));
         }
+
 
         if ($request->has('fields')) {
-            $fields = $request->get('fields');
-            $products = $products->selectRaw($fields);
+            $productRepository
+                ->selectFilter($request->get('fields'));
         }
-
 
         // conditions=name:Produto 1 alterado;price
 
 //        return response()->json($products);
-        return new ProductCollection($products->paginate(10));
+        return new ProductCollection($productRepository->getResult()->paginate(10));
     }
 
     public function show($id)
