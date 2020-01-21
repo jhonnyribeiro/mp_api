@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b343c16-f626-488e-9f24-5ccfdb52688e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Repository/ProductRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repository/AbstractRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/ProductRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1579547949242" duration="3141000" />
       <workItem from="1579556924861" duration="3883000" />
       <workItem from="1579563156261" duration="53000" />
-      <workItem from="1579596371554" duration="9559000" />
+      <workItem from="1579596371554" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="add paginator on prodcuts endpoint">
       <created>1579559933100</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579607541402</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="26. Melhorias no Repository">
+      <created>1579614907282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579614907282</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +244,8 @@
     <MESSAGE value="22. Iniciando Filtragem de Campos&#10;Adicionado filtros simples via url" />
     <MESSAGE value="23. Adicionando Condições na Filtragem" />
     <MESSAGE value="24. Melhorando Condições nas Filtragens&#10;adicionado parametros como like, maior que... etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Melhorando Condições nas Filtragens&#10;adicionado parametros como like, maior que... etc" />
+    <MESSAGE value="26. Melhorias no Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="26. Melhorias no Repository" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="102" key="#Notifications" timestamp="1579599816218">
@@ -252,17 +260,19 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="401" y="178" key="#com.intellij.ide.util.MemberChooser/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579607831518" />
-    <state x="182" y="55" key="CommitChangelistDialog2" timestamp="1579607540608">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state x="97" y="0" key="CommitChangelistDialog2" timestamp="1579614906283">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="97" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1579614906283" />
     <state x="182" y="55" key="CommitChangelistDialog2/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579607540608" />
     <state x="439" y="424" width="431" height="201" key="Github.CreateGistDialog" timestamp="1579559342583">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="439" y="424" width="431" height="201" key="Github.CreateGistDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579559342583" />
-    <state x="407" y="308" key="NewPhpClassDialog" timestamp="1579607716605">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state x="217" y="216" key="NewPhpClassDialog" timestamp="1579615054899">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="217" y="216" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1579615054899" />
     <state x="407" y="308" key="NewPhpClassDialog/2560.0.1366.738/-1024.0.1024.738/0.0.2560.1050@0.0.2560.1050" timestamp="1579607716605" />
     <state x="25" y="83" key="SettingsEditor" timestamp="1579598214026">
       <screen x="0" y="0" width="2560" height="1050" />
